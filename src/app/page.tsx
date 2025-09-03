@@ -1,6 +1,6 @@
 
 import UserList from '@/components/UserList';
-import { User } from '@/index';
+import { User } from '@/types';
 
 // Function to fetch data from the API
 async function getUsers() {
