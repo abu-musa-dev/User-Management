@@ -1,5 +1,5 @@
 
-import { User } from '@/types';
+import { User } from '@/index';
 import Link from 'next/link';
 
 // Function to fetch data for a specific user from the API
