@@ -1,4 +1,3 @@
-// src/app/page.tsx
 
 import UserList from '@/components/UserList';
 import { User } from '@/types';

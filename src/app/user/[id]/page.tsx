@@ -1,4 +1,3 @@
-// src/app/user/[id]/page.tsx
 
 import { User } from '@/types';
 import Link from 'next/link';

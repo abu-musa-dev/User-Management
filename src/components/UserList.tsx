@@ -46,7 +46,7 @@ export default function UserList({ users }: UserListProps) {
   }, []);
 
   // Memoized function to filter users based on the active search query
-  // This avoids re-calculating on every render unless users or the query change
+
   const filteredUsers = useMemo(() => {
     if (!activeSearchQuery) return users;
     return users.filter(
