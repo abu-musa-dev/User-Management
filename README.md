@@ -31,11 +31,11 @@ This project fetches user data from an API and displays it in a searchable, pagi
 
 | User List (Desktop) | User List (Mobile) |
 |--------------------|------------------|
-| ![desktop](./) | ![mobile](./screenshots/mobile.png) |
+| ![desktop](./public/dashbord.png) | ![mobile](./public/mobile%20(2).png) |
 
 | User Details |
 |-------------|
-| ![details](./screenshots/details.png) |
+| ![details](./public/detils.png) |
 
 ---
 
