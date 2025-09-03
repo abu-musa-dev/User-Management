@@ -28,7 +28,7 @@ const InfoField = ({ label, value }: { label: string; value: React.ReactNode }) 
 export default async function UserDetailsPage({ params }: { params: { id: string } }) {
   const user: User | null = await getUser(params.id);
 
-  // Displays an error message if the user is not found
+  // Displays an error message if the user is not found for
   if (!user) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
